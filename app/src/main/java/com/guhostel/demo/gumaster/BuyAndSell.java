@@ -11,7 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 
-import com.hostelmanager.hostelmasterr.helper.BottomNavigationBehavior;
 
 
 public class BuyAndSell extends AppCompatActivity {
@@ -19,7 +18,7 @@ public class BuyAndSell extends AppCompatActivity {
 
 
 
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+ /*   private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
         @Override
@@ -76,5 +75,5 @@ public class BuyAndSell extends AppCompatActivity {
         transaction.replace(R.id.frame_container,fragment);
       //  transaction.addToBackStack(null);
         transaction.commit();
-    }
+    }*/
 }
