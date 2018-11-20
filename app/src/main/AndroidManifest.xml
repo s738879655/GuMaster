@@ -19,41 +19,17 @@
         </activity>
 
 
-        <activity android:name=".SearchActivity" />
         <activity android:name=".GalleryActivity" />
-        <activity android:name=".SignUp">
-            <intent-filter>
-                <action android:name="com.hostelmanager.hostelmaster.SignUp" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".SignInerActivity" />
         <activity android:name=".MyIssues" />
-        <activity android:name=".SliderFromIssues" />
-        <activity android:name=".propertysignup" />
-        <activity android:name=".Successful_sign_up" />
-        <activity android:name=".review_edit" />
-        <activity android:name=".workwithus" />
-        <activity
-            android:name=".mess_schedulepopup"
-            android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".getToken"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".rating_bar"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".feedback" />
-        <activity android:name=".refer_and_earn" />
-        <activity android:name=".SetMobile" />
         <activity android:name=".MobileAndOTP" />
         <activity android:name=".IssuesList" />
         <activity android:name=".HostelSignUp" />
         <activity
             android:name=".Issues"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".Notifications" />
 
         <!--
      Set custom default icon. This is used when no icon is set for incoming notification messages.
@@ -73,19 +49,9 @@
             android:name="firebase_messaging_auto_init_enabled"
             android:value="true" />
 
-        <activity android:name=".NavigatorActivityBuyAndSell" />
         <activity
             android:name=".BuyAndSell"
             android:label="@string/title_activity_buy_and_sell" />
-        <activity
-            android:name=".SplashScreen"
-            android:theme="@style/AppTheme.NoActionBar.Fullscreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".finalBookDetails" />
 
         <meta-data
@@ -98,20 +64,8 @@
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="@string/default_notification_channel_id" />
 
-        <service android:name=".RecieveNotification2">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-            </intent-filter>
-        </service>
-        <service android:name=".RecieveNotification">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-
         <activity android:name=".showBookForBuy" />
         <activity android:name=".BuyBookList" />
-        <activity android:name=".QRCodeScanner"></activity>
     </application>
 
 </manifest>
