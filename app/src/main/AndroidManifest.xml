@@ -29,7 +29,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignInerActivity" />
-        <activity android:name=".AppSignUp" />
         <activity android:name=".MyIssues" />
         <activity android:name=".SliderFromIssues" />
         <activity android:name=".propertysignup" />
